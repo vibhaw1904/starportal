@@ -31,3 +31,18 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes dropDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-dropDown {
+  animation: dropDown 0.8s ease-out forwards;
+}
