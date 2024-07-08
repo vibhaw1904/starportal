@@ -46,3 +46,10 @@ body {
 .animate-dropDown {
   animation: dropDown 0.8s ease-out forwards;
 }
+
+.dotted-line {
+  border-top: 1px dotted rgba(255, 255, 255, 0.3); /* Adjust the color and opacity as needed */
+  border-top-style: dashed;
+  border-top-width: 2px;
+  border-spacing: 4px;
+}
