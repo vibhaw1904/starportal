@@ -5,13 +5,20 @@ import { RiDropdownList } from "react-icons/ri";
 import TopcardSvg from "./TopcardSvg";
 import ScrollingCard from "./ScrollingCard";
 import MiddleSvg from "./MiddleSvg";
+
+
+type DropdownData = {
+  title: string;
+  tasks: number;
+  imageUrl: string;
+};
 type TopCardProps = {
   title: string;
   description: string;
   quests: number;
   xp: number;
   imageUrl: string;
-  dropdownData:[]
+  dropdownData:DropdownData[]
 };
 
 const TopCard: React.FC<TopCardProps> = ({
@@ -64,8 +71,7 @@ const TopCard: React.FC<TopCardProps> = ({
  />
         </div>
       )}
-      <TopcardSvg/>
-      <MiddleSvg/>
+     
     </div>
   );
 };

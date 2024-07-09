@@ -3,7 +3,7 @@ type MiddleSvgProps = {};
 
 const MiddleSvg: React.FC<MiddleSvgProps> = () => {
   return (
-    <div className="absolute top-3/4 -z-[1] left-56">
+    <div className="absolute top-1/3 -z-[1] left-56">
       <svg
         width="721"
         height="274"

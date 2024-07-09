@@ -54,3 +54,12 @@ body {
   border-spacing: 4px;
 }
 
+.svg{
+  position: absolute;
+    top: 46%;
+    left: 57%;
+    z-index: -1;
+}
+.custom-left {
+  left: calc(-100% - 24px);
+}

@@ -24,7 +24,7 @@ const Sectiontwo: React.FC<SectiontwoProps> = () => {
   ];
 
   return (
-    <div className='mx-w-[1200px] mt-7 border-b-[1px] border-t-[1px] border-white/10'>
+    <div className='mx-w-[1200px] mt-7 mb-16 border-t-[1px] border-white/10'>
       <div className='flex flex-col items-center justify-center font-normal font-outfit mt-10 mb-10'>
         <div className='text-white text-2xl leading-8'>
           Top Crypto Creators and Projects to Follow
