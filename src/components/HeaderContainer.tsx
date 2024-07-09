@@ -1,6 +1,7 @@
 import React from 'react';
 import TopCard from './Topcard';
 import MiddleRight from './MiddleRight';
+import Sectiontwo from './Sectiontwo';
 
 type HeaderContainerProps = {
     
@@ -28,6 +29,7 @@ const HeaderContainer:React.FC<HeaderContainerProps> = () => {
 />
 <MiddleRight/>
     </section>
+    
     </div>
    
     </div>
