@@ -7,6 +7,7 @@ import TopcardSvg from './TopcardSvg';
 import MiddleSvg from './MiddleSvg';
 import SectionTwoCard from './SectionTwoCard';
 import Timer from './Timer';
+import Reward from './Reward';
 
 type HeaderContainerProps = {
     
@@ -30,10 +31,10 @@ const dummyData1 = [
   
 const HeaderContainer:React.FC<HeaderContainerProps> = () => {
     
-    return <div className=' '>
-   <div className='  relative  mx-auto list-none  p-0  w-full h-full '>
+    return <div className='w-full '>
+   <div className='  relative  mx-auto  list-none  p-0  w-full h-full overflow-x-hidden'>
     <div className='pl-32 pr-32'>
-    <section className='mx-w-[1200px]  pt-0 pb-0 pr-4 pl-4 w-full relative flex justify-center flex-col'>
+    <section className='mx-w-[1200px]  pt-0 pb-0 pr-4 pl-4 w-full relative flex justify-center flex-col '>
     <TopCard   title="Basics of Crypto"
         description="The safest and easiest place to start your crypto journey!"
         quests={6}
@@ -43,7 +44,7 @@ const HeaderContainer:React.FC<HeaderContainerProps> = () => {
 />
 <TopcardSvg/>
 <MiddleSvg/>
-<div className="flex w-full justify-end relative -mt-6 ">
+<div className="flex w-full justify-end relative -mt-6  ">
 <MiddleRight/>
 <SectiononeSvg/>
 </div>
@@ -70,8 +71,8 @@ const HeaderContainer:React.FC<HeaderContainerProps> = () => {
     
            </div>
     </section>
-    <div className='flex justify-center'><Timer/>
-    
+    <div className='flex justify-center flex-col items-center'><Timer/>
+    <Reward/>
     </div>
     
     </div>

@@ -53,7 +53,7 @@ const TopCard: React.FC<TopCardProps> = ({
         <div className="flex flex-col">
           <div className="text-2xl mb-2 font-normal	 leading-8 ">{title}</div>
           <div className="text-gray-400 text-lg leading-5 mb-4 overflow-hidden text-ellipsis">{description}</div>
-          <hr className="dotted-line w-full my-2 "/>
+            <hr className="dotted-line w-full my-2 "/>
           <div className="mt-4 flex items-center">
           <div className="h-8 pt-2 pb-2 pr-3 pl-3 flex justify-center rounded-[1000px] border-[0.5px] border-white/5 bg-white/5 text-white text-sm font-normal leading-4 items-center gap-1 w-max
           ">
