@@ -31,5 +31,4 @@ const ScrollCard: React.FC<ScrollCardProps> = ({ title, tasks, imageUrl }) => {
     </div>
   );
 };
-
 export default ScrollCard;

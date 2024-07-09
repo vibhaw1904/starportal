@@ -23,8 +23,7 @@ const Reward: React.FC<RewardProps> = () => {
     bg-black bg-opacity-60
     text-base
     font-normal
-    leading-5
-    text-white
+    leading-5 text-white
 "
         style={{
           color: "var(--White-60, rgba(255, 255, 255, .8))",

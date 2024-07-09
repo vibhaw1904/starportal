@@ -8,7 +8,6 @@ import MiddleSvg from './MiddleSvg';
 import SectionTwoCard from './SectionTwoCard';
 import Timer from './Timer';
 import Reward from './Reward';
-import RewardInfo from './RewardInfo';
 
 type HeaderContainerProps = {
     
