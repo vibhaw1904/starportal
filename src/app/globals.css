@@ -63,4 +63,26 @@ body {
 .custom-left {
   left: calc(-100% - 24px);
 }
+.awardInfo{
+  position: absolute;
+  top: 43%;
+  right: -75%;
+  z-index: -1;
+  transform: translateY(-50%);
+  opacity: 50%;
+}
 
+.awardInfo-1{
+  
+
+
+    width: 312px;
+    border-radius: 6px;
+    border: .5px solid var(--White-20, rgba(255, 255, 255, .2));
+    background: #131313;
+    box-shadow: 0 2px 5px #00000080;
+    position: absolute;
+    top: 0;
+    right: -120%;
+    transform: translateY(-45%);
+}

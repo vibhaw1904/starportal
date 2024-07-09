@@ -1,5 +1,6 @@
 import React from "react";
 import { BiCheck } from "react-icons/bi";
+import { BsInfoCircle } from "react-icons/bs";
 
 type RewardProps = {};
 
@@ -48,7 +49,29 @@ const Reward: React.FC<RewardProps> = () => {
 
 </div>
 <div className="flex w-full pt-[10px] pb-[10px] pl-0 pr-0 justify-center items-center gap-2  rounded-[8px] border-[1px] border-white/10 bg-white/10 cursor-pointer align-middle text-center mt-3 leading-5"><div>Claim Now</div><img src="arrow.svg" alt="" /></div>
-
+<img src="awardinfo.svg" alt="" className="awardInfo" />
+      <div className="awardInfo-1">
+        <div className="text-white/40 text-sm  font-normal leading-4 pt-3 pb-3 pr-4 pl-4 border-b-[1px] ">
+          Reward info <BsInfoCircle/>
+        </div>
+        <div className="text-white/60 text-base font-normal leading-5 p-4">
+          <p>
+            <span>Free access to paid KOL (crypto earning) communities!</span>
+          </p>
+          <br />
+          <p>
+            Win access to exclusive earning communities of some of the the
+            greatest earners in crypto for a month, every 24 hours. Get access
+            to unmatched insights, a close-knit community of the best airdrop
+            earners, and more.
+          </p>
+          <br />
+          <p>
+            To win: make sure you've connected your Twitter and Discord accounts
+            - and follow our criteria!
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
